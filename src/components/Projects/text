@@ -1,0 +1,84 @@
+{
+    name: "Grievance System",
+    techs: ["React", "Javascript", "NodeJS", "HTML", "CSS", "Redux", "Firebase"],
+    description:
+        "Empower Voices, Resolve Concerns: Introducing our Grievance Handling Solution - a cutting-edge platform that streamlines communication and addresses grievances effectively.",
+    github: "https://github.com/JoelSamson/GrievanceSystem2020",
+    website: "https://grievsys2020.web.app/",
+    imgSrc: "/images/grievance.webp",
+    type: "Featured Project",
+},
+{
+    name: "Covid 19 - Tracker",
+    techs: ["HTML", "CSS", "NodeJS", "API"],
+    description:
+        "A Covid1-9 global statistics tracker with information, news, number of emergency spaces available in local hospitals and statistical data.",
+    github: "https://github.com/JoelSamson/GrievanceSystem2020",
+    website: "https://covid19-trackinfo.web.app/",
+    imgSrc: "/images/covid.png",
+    type: "Featured Project",
+},
+{
+    name: "GMU Survey Page",
+    techs: [
+        "HTML", "CSS", "Javascript", "AWS for Hosting testing S3", "Netlify", "Bootstrap"
+    ],
+    description:
+        "Survey Page built for george mason for collecting data for 2022 campus visit for new students",
+    github: "https://github.com/BhandarkarPawan/refriendo",
+    website: "https://mason.gmu.edu/~jsamson6/survey.html",
+    imgSrc: "/images/survey.png",
+    type: "Side Project",
+},
+{
+    name: "GMU Computer Science Department Page",
+    techs: ["HTML", "CSS", "Javascript", "AWS for Hosting testing S3", "Netlify", "Bootstrap"],
+    description:
+        "At the very start of my CSS journey, I built this responsive product preview card. I used vanilla CSS to build this project diving into the world of flexbox and CSS variables. While the project is simple, it was a great learning experience for me and gave me the confidence to build more complex projects.",
+    github: "https://github.com/BhandarkarPawan/product-preview-card-component",
+    website:
+        "https://bhandarkarpawan-product-preview-card-component.netlify.app/",
+    imgSrc: "/images/gmu_cs.jpeg",
+    type: "Side Project",
+},
+{
+    name: "Portfolio",
+    techs: ["HTML", "CSS", "Javascript"],
+    description:
+        "At the very start of my CSS journey, I built this responsive product preview card. I used vanilla CSS to build this project diving into the world of flexbox and CSS variables. While the project is simple, it was a great learning experience for me and gave me the confidence to build more complex projects.",
+    github: "https://github.com/BhandarkarPawan/product-preview-card-component",
+    website:
+        "https://bhandarkarpawan-product-preview-card-component.netlify.app/",
+    imgSrc: "/images/gmu_cs.jpeg",
+    type: "Side Project",
+},
+{
+    name: "Pokedex",
+    techs: ["HTML", "CSS", "Javascript", "PokeAPI", "Netlify"],
+    description:
+        "Made a Webpage to display and pull data for pokemon stored in the PokeAPI. Thought me API calling and Javascript",
+    website:
+        "https://pokedex-simulator.netlify.app/",
+    imgSrc: "/images/pokedex.webp",
+    type: "Side Project",
+},
+{
+    name: "E-commerce Simulation - C",
+    techs: ["C","SQL", "MySQL API"],
+    description:
+        "Programmed an E-commerce Interface in C for users to sell, add inventory, and generate bills with 6% Tax ",
+    github: "https://github.com/JoelSamson/E-commerce-System-C",
+    website: "https://github.com/JoelSamson/E-commerce-System-C",
+    imgSrc: "/images/e-commerce.png",
+    type: "Side Project",
+},
+{
+    name: "Naruto Quotes",
+    techs: ["HTML", "CSS", "JavaScript"],
+    description:
+        "Made a webpage on my freetime to show quotes of my favorite naruto characters and display them using various ways",
+    github: "https://github.com/JoelSamson/Naruto-Inspirational-Quotes",
+    website: "https://naruto-inspirational-quotes.netlify.app/",
+    imgSrc: "/images/naruto-quote.webp",
+    type: "It's Something",
+},
