@@ -49,4 +49,4 @@ To learn more about Next.js, check out these resources:
 
 ## Contact for Collaboration
 
-I'm open to collaboration opportunities! If you are interested in working together or have any inquiries, please feel free to contact me through the contact form on my website [joelsamson.com](https://joelsamson.com/contact) or directly via email at [your@email.com](mailto:your@email.com). I'm looking forward to hearing from you!
+I'm open to collaboration opportunities! If you are interested in working together or have any inquiries, please feel free to contact me through the contact form on my website [joelsamson.com](https://joelsamson.com/contact) or directly via email at [your@email.com](mailto:jsamson6@gmu.edu). I'm looking forward to hearing from you!
