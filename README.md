@@ -1,6 +1,6 @@
 # My Portfolio
 
-Welcome to my up-to-date portfolio! This project showcases my skills and expertise using the latest technologies such as Next.js 13, TypeScript, JavaScript, and it is hosted on Vercel.
+Welcome to my up-to-date portfolio! This project showcases my skills and expertise using the latest technologies such as Next.js 13, TypeScript, JavaScript, and it is hosted on Vercel. You can visit my website at [joelsamson.com](https://joelsamson.com).
 
 ## About the Project
 
@@ -34,6 +34,19 @@ To learn more about Next.js, check out these resources:
 - [Learn Next.js](https://nextjs.org/learn) - An interactive Next.js tutorial.
 - [Next.js GitHub Repository](https://github.com/vercel/next.js/) - Your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Features
 
-The easiest way to deploy your Next.js app is to use the Vercel Platform, created by the makers of Next.js. For more details, check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment).
+1. **Responsive Design:** Seamlessly adjusts to all devices, ensuring optimal user experience.
+2. **Landing Page:** Impactful introduction, setting the tone for the website's aesthetic.
+3. **Light and Dark Mode:** Choose between themes for personalized browsing.
+4. **Experience Section:** Detailed work history, highlighting key roles and projects.
+5. **Projects Display:** Showcase notable works with descriptions and relevant details.
+6. **Skills Overview:** Outline of technical and soft skills for a clear understanding.
+7. **Contact Form:** Easy way for visitors to inquire and initiate collaborations.
+8. **Education Information:** Academic background, including degrees and certifications.
+9. **Social Media Links:** Direct links to professional social media profiles.
+10. **Stunning Animations:** Engaging animations enhancing the user interface.
+
+## Contact for Collaboration
+
+I'm open to collaboration opportunities! If you are interested in working together or have any inquiries, please feel free to contact me through the contact form on my website [joelsamson.com](https://joelsamson.com/contact) or directly via email at [your@email.com](mailto:your@email.com). I'm looking forward to hearing from you!
