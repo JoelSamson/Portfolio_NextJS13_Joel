@@ -29,32 +29,31 @@ const About: React.FC<React.PropsWithChildren<IProps>> = ({
     return (
         <Wrapper {...delegated} id="about">
             <AboutMe>
-                <SlideUp>
-                    <SectionTitle label={"About Me "} side={"left"} />
-                </SlideUp>
-                <SlideUp>
-                    <Description>
-                    Hi there👋! My name is Joel, and I am currently pursuing a 
-                    <Highlight>Master&apos;s in Computer Science at George Mason University </Highlight>.I am working as a <Highlight>Graduate Teaching Assistant</Highlight> at George Mason University. My skills in programming stretch across many fields, and I&apos;m always eager to explore new opportunities. I specialize in software development, with a strong focus on <Highlight>Web Development</Highlight>.
-                    </Description>
-                </SlideUp>
-                <SlideUp>
-                    <Description>
-                   <Highlight>&quot;How big would you dream, if you knew you couldn&apos;t fail?&quot;
--Robert Schuller</Highlight>
-                    </Description>
-                </SlideUp>
-                <SlideUp>
-                    <Description>
-                    I&apos;m deeply passionate about software engineering and computer science, and I enjoy collaborating with diverse teams. Currently, I work as a graduate teaching assistant at the Computer Science Department, where I&apos;m gaining valuable experience. I also interned at Quality Theorem, where I led a team to develop a comprehensive exam portal. My research interests include software engineering, artificial intelligence, and web development.
-                    </Description>
-                </SlideUp>
-                <SlideUp>
-                    <Download onClick={downloadResume}>
-                        Download Resume
-                    </Download>
-                </SlideUp>
-            </AboutMe>
+    <SlideUp>
+        <SectionTitle label={"About Me"} side={"left"} />
+    </SlideUp>
+    <SlideUp>
+        <Description>
+            Hi there! 👋 My name is Joel, and I recently completed my <Highlight>Master's in Computer Science at George Mason University</Highlight>.My skills in programming stretch across many fields, and I'm always eager to explore new opportunities.
+        </Description>
+    </SlideUp>
+    <SlideUp>
+        <Description>
+            <Highlight>"How big would you dream, if you knew you couldn't fail?" - Robert Schuller</Highlight>
+        </Description>
+    </SlideUp>
+    <SlideUp>
+        <Description>
+            I am deeply passionate about software engineering and computer science, and I thrive in collaborative environments. My internship experiences, including at Istari Digital, where I contributed to website development using React, NodeJS, and other technologies, have further fueled my interest in software development. I am particularly interested in roles related to <Highlight>software development, cloud computing, and full-stack development</Highlight>.
+        </Description>
+    </SlideUp>
+    <SlideUp>
+        <Download onClick={downloadResume}>
+            Download Resume
+        </Download>
+    </SlideUp>
+</AboutMe>
+
             <Picture>
                 <Source media={MIN_WIDTH.desktop} srcSet={aboutUrl} />
                 <Source

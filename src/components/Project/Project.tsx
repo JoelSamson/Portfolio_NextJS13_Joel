@@ -28,7 +28,7 @@ export interface IProject {
 
 export interface IProps {
     project: IProject;
-    side: "left" | "right";
+    side: "left" | "right" | "left";
 }
 
 const Project: React.FC<IProps> = ({ project, side, ...delegated }) => {

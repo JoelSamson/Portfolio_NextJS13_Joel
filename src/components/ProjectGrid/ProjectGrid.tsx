@@ -159,7 +159,7 @@ export const HighlightedProject = styled.div<{
     display: flex;
     flex-direction: column;
     z-index: 1;
-    height:auto;
+    height:500px;
     background-color: ${({ theme }) => theme.colors.background.light};
 
     /* opacity: 0.9; */
@@ -295,6 +295,7 @@ export const Info = styled.div`
     display: flex;
     width: 100%;
     height: 100%;
+    
     flex-grow: 1;
 
     flex-direction: column;
@@ -307,7 +308,8 @@ export const Info = styled.div`
 export const ProjectImage = styled.img`
     width: 100%;
     height: 100%;
-    max-width: 700px;
+    max-width: 400px;
+    max-height: 400px;
     object-fit: cover;
 `;
 
