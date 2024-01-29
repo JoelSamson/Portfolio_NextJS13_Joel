@@ -125,7 +125,7 @@ const Source = styled.source``;
 const Image = styled.img`
 margin-bottom:50px`;
 
-const Download = styled(Button)`
+const Download = styled.button`
     align-self: start;
     margin-top: 32px;
 `;
