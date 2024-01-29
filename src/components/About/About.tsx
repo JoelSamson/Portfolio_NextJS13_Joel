@@ -34,17 +34,18 @@ const About: React.FC<React.PropsWithChildren<IProps>> = ({
     </SlideUp>
     <SlideUp>
         <Description>
-            Hi there! 👋 My name is Joel, and I recently completed my <Highlight>Master's in Computer Science at George Mason University</Highlight>.My skills in programming stretch across many fields, and I'm always eager to explore new opportunities.
+            Hi there! 👋 My name is Joel, and I recently completed my <Highlight>Master&apos;s in Computer Science at George Mason University</Highlight>.My skills in programming stretch across many fields, and I&apos;m always eager to explore new opportunities.
         </Description>
     </SlideUp>
     <SlideUp>
         <Description>
-            <Highlight>"How big would you dream, if you knew you couldn't fail?" - Robert Schuller</Highlight>
+            <Highlight>&quot;How big would you dream, if you knew you couldn&apos;t fail?&quot;
+-Robert Schuller</Highlight>
         </Description>
     </SlideUp>
     <SlideUp>
         <Description>
-            I am deeply passionate about software engineering and computer science, and I thrive in collaborative environments. My internship experiences, including at Istari Digital, where I contributed to website development using React, NodeJS, and other technologies, have further fueled my interest in software development. I am particularly interested in roles related to <Highlight>software development, cloud computing, and full-stack development</Highlight>.
+            I am deeply passionate about software engineering and computer science, and I thrive in collaborative environments. My internship experiences, including at Istari Digital, where I contributed to website development using React, NodeJS, and other technologies, have further fueled my interest in software development. I am particularly interested in roles related to <Highlight>software development, cloud computing, and full-stack development.</Highlight>.
         </Description>
     </SlideUp>
     <SlideUp>
