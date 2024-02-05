@@ -17,7 +17,7 @@ const SectionTitle = ({ label, side, ...delegated }: IProps) => {
 };
 
 interface StyledProps {
-    side: "left" | "right";
+    side?: "left" | "right";
 }
 
 const Wrapper = styled.div<StyledProps>`
