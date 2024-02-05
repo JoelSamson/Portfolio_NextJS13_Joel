@@ -2,7 +2,7 @@ import { QUERIES } from "breakpoints";
 import styled from "styled-components";
 
 export interface IProps {
-    label: string;
+    label?: string;
     side: "left" | "right";
     delegated?: React.ElementType | keyof JSX.IntrinsicElements;
 }
