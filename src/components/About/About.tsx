@@ -1,4 +1,3 @@
-import Button from "@/components/Button/Button";
 import Highlight from "@/components/Highlight/Highlight";
 import SectionTitle from "@/components/SectionTitle/SectionTitle";
 import { MIN_WIDTH, QUERIES } from "breakpoints";
@@ -120,9 +119,24 @@ const Source = styled.source``;
 const Image = styled.img`
 margin-bottom:50px`;
 
-const Download = styled(Button)`
+const Download = styled.button`
     align-self: start;
     margin-top: 32px;
+    color: ${({ theme }) => theme.colors.primary};
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 10px 16px;
+    transition: var(--transition);
+
+    ${QUERIES.tabletAndUp} {
+        padding: 16px 32px;
+    }
+
+    &:hover {
+        background-color: ${({ theme }) => theme.colors.primary};
+        color: ${({ theme }) => theme.colors.background.light};
+    }
 `;
 
 
