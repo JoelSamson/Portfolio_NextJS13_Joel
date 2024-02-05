@@ -4,7 +4,7 @@ import styled from "styled-components";
 export interface IProps {
     label: string;
     side: "left" | "right";
-    delegated?: any;
+    delegated?: React.ElementType | keyof JSX.IntrinsicElements;
 }
 
 const SectionTitle = ({ label, side, ...delegated }: IProps) => {
