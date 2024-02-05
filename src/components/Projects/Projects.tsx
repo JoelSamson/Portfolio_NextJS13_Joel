@@ -123,8 +123,9 @@ const Projects: React.FC = () => {
                 <Project project={PROJECTS[0]} side="left" />
             </MaxWidthWrapper>
             <Project project={PROJECTS[1]} side="right" />
+            <Project project={PROJECTS[2]} side="left" />
 
-            <ProjectGrid projects={PROJECTS.slice(2)} />
+            <ProjectGrid projects={PROJECTS.slice(3)} />
         </Wrapper>
     );
 };
