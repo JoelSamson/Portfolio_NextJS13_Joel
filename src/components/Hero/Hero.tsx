@@ -62,15 +62,15 @@ const Hero = () => {
                 <Text>
                     I’m a full-stack engineer specialising in building (and
                     sometimes designing) highly accessible, human-centered
-                    applications for the web. Currently, I’m pursuing a Master’s
-                    degree in Computer Science at{" "}
-                    <Link
+                    applications for the web. Recently graduated from <Link
                         href="https://www.gmu.edu"
                         target="_blank"
                         rel="noreferrer noopener"
                     >
                         <Highlight>George Mason University</Highlight>
-                    </Link>
+                    </Link> with a Master’s
+                    degree in Computer Science. Looking for Entry level <Highlight>Software Developer Roles.</Highlight>
+                    
                 </Text>
                 <CallToAction onClick={scrollToContact}>
                     Get In Touch
