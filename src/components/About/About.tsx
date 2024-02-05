@@ -23,38 +23,40 @@ const About: React.FC<React.PropsWithChildren<IProps>> = ({
         theme === "light" ? "images/Joel-light.png" : "images/Joel.png";
     const aboutUrlSmall =
         theme === "light"
-            ? "images/Joel-light.png"
-            : "images/Joel.png";
+        ? "images/Joel-light.png"
+        : "images/Joel.png";
 
     return (
         <Wrapper {...delegated} id="about">
             <AboutMe>
-    <SlideUp>
-        <SectionTitle label={"About Me"} side={"left"} />
-    </SlideUp>
-    <SlideUp>
-        <Description>
-            Hi there! 👋 My name is Joel, and I recently completed my <Highlight>Master&apos;s in Computer Science at George Mason University</Highlight>.My skills in programming stretch across many fields, and I&apos;m always eager to explore new opportunities.
-        </Description>
-    </SlideUp>
-    <SlideUp>
-        <Description>
-            <Highlight>&quot;How big would you dream, if you knew you couldn&apos;t fail?&quot;
+                <SlideUp>
+                    <SectionTitle label={"About Me "} side={"left"} />
+                </SlideUp>
+                <SlideUp>
+                    <Description>
+                    Hi there! 👋 My name is Joel, and I recently completed my 
+            <Highlight>Master&apos;s in Computer Science at George Mason University</Highlight>
+            .My skills in programming stretch across many fields, and I&apos;m always eager to explore new opportunities.
+                    </Description>
+                </SlideUp>
+                <SlideUp>
+                    <Description>
+                    <Highlight>&quot;How big would you dream, if you knew you couldn&apos;t fail?&quot;
 -Robert Schuller</Highlight>
         </Description>
-    </SlideUp>
-    <SlideUp>
-        <Description>
-            I am deeply passionate about software engineering and computer science, and I thrive in collaborative environments. My internship experiences, including at Istari Digital, where I contributed to website development using React, NodeJS, and other technologies, have further fueled my interest in software development. I am particularly interested in roles related to <Highlight>software development, cloud computing, and full-stack development.</Highlight>.
-        </Description>
-    </SlideUp>
-    <SlideUp>
-        <Download onClick={downloadResume}>
-            Download Resume
-        </Download>
-    </SlideUp>
-</AboutMe>
-
+                </SlideUp>
+                <SlideUp>
+                    <Description>
+                    I have 2 years of expereience from my internships ans studies. I am deeply passionate about software engineering and computer science, and I thrive in collaborative environments. My internship experiences, including at Istari Digital, where I contributed to website development using React, NodeJS, and other technologies, have further fueled my interest in software development. I am particularly interested in roles related to 
+            <Highlight>software development, cloud computing, and full-stack development.</Highlight>.
+                    </Description>
+                </SlideUp>
+                <SlideUp>
+                    <Download onClick={downloadResume}>
+                        Download Resume
+                    </Download>
+                </SlideUp>
+            </AboutMe>
             <Picture>
                 <Source media={MIN_WIDTH.desktop} srcSet={aboutUrl} />
                 <Source
@@ -122,13 +124,11 @@ const Picture = styled.picture`
 
 const Source = styled.source``;
 
-const Image = styled.img`
-margin-bottom:50px`;
+const Image = styled.img``;
 
-const Download = styled.button`
+const Download = styled(Button)`
     align-self: start;
     margin-top: 32px;
 `;
-
 
 export default About;
