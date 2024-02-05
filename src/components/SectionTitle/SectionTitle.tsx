@@ -17,10 +17,10 @@ const SectionTitle = ({ label, side, ...delegated }: IProps) => {
 };
 
 interface StyledProps {
-    side?: "left" | "right";
+    side: "left" | "right";
 }
 
-const Wrapper = styled.div<StyledProps>`
+const Wrapper = styled.div<Partial<StyledProps>>`
     font-size: calc(24 / 16 * 1rem);
     color: ${({ theme }) => theme.colors.primary};
     display: flex;
