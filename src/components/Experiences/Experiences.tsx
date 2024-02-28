@@ -32,11 +32,12 @@ const Experiences: React.FC = () => {
                                 <Company>Istari Digital</Company>
                                 <Role>Software Engineer Intern</Role>
                                 <Description>
-                                • Spearheaded the engineering and development of advanced website components, resulting in a remarkable 15% increase in product versatility and a significant boost in user satisfaction.<br></br><br></br>
-                                • Optimized website performance by integrating key APIs, leading to an impressive 25% reduction in load times leveraging Zitadel API for authentication and seamlessly implementing GitHub for robust version control.<br></br><br></br>
-                                • Implemented comprehensive unit testing protocols, ensuring a remarkable 98% reliability rate for website components. Kept a seamless track of progress using Jira, contributing to a highly stable and efficient digital platform.<br></br>
-
-
+                                    • Crafted reusable modular components, driving a 20% decrease in feature implementation time and boosting frontend<br></br><br></br>
+                                    • Architected RESTful APIs, boosting backend by 30%, reducing response time by 15%, enhancing scalability<br></br><br></br>
+                                    • Conducted comprehensive unit testing and achieved a 95% code coverage, effectively reducing post-release bugs by 30%<br></br><br></br>
+                                    • Led API documentation, cutting 25% of dev time and enhancing project clarity with clear, concise communication<br></br><br></br>
+                                    • Formulated TypeScript migration strategy, converting .jsx files to .ts, enhancing codebase maintainability and scalability<br></br><br></br>
+                                    • Integrated ChatGPT API into bots, automating repetitive daily tasks, optimizing workflow efficiency<br></br><br></br>
                                 </Description>
                             </Info>
                         </Item>
@@ -65,9 +66,10 @@ const Experiences: React.FC = () => {
                                         <Role>Graduate Teaching Assistant</Role>
                                         <Description>
                                         
-                                        • Orchestrated and monitored student skill development through weekly check-ins, assessments, and keen observations, resulting in remarkable progress and achievement.<br></br><br></br>
-                                • Managed over 100 assignments and contributed to bi-weekly course materials across two sections, significantly improving course efficiency and ensuring a seamless learning experience.<br></br><br></br>
-                                • Delivered comprehensive instruction to students on the latest emerging technologies, simultaneously enhancing personal skills and aligning the course syllabus with dynamic industry trends for a more relevant and forward-thinking curriculum.<br></br>
+                                        • Orchestrated and monitored student skill development through weekly check-ins, assessments, and keen observations, resulting in remarkable progress and achievement<br></br><br></br>
+                                • Managed over 100 assignments and contributed to bi-weekly course materials across two sections, significantly improving course efficiency and ensuring a seamless learning experience<br></br><br></br>
+                                • Delivered comprehensive instruction to students on the latest emerging technologies, simultaneously enhancing personal skills and aligning the course syllabus with dynamic industry trends for a more relevant and forward-thinking curriculum<br></br><br></br>
+                                • Guided 100+ students in fundamental CS concepts, enhancing their ability to write efficient, maintainable code by 15%<br></br><br></br>
                                         </Description>
                                     </Info>
                                 </Bullet>
@@ -99,14 +101,47 @@ const Experiences: React.FC = () => {
                                         <Company>Nexus 8 International</Company>
                                         <Role>Software Engineering Intern</Role>
                                         <Description>
-                                        • Orchestrated a website makeover by incorporating cutting-edge design elements and features, resulting in a remarkable 25% surge in website traffic.<br></br><br></br>
-                                        • Spearheaded a comprehensive overhaul of an antiquated website, enhancing both speed and functionality and introducing innovative features for an improved user experience.<br></br><br></br>
-                                        • Pioneered weekly project briefings, fostering alignment among teams on objectives and promoting a collaborative work environment, thereby enhancing overall project efficiency.<br></br>
+                                        • Orchestrated a website makeover by incorporating cutting-edge design elements and features, resulting in a remarkable 25% surge in website traffic<br></br><br></br>
+                                        • Spearheaded a comprehensive overhaul of an antiquated website, enhancing both speed and functionality and introducing innovative features for an improved user experience<br></br><br></br>
+                                        • Pioneered weekly project briefings, fostering alignment among teams on objectives and promoting a collaborative work environment, thereby enhancing overall project efficiency<br></br>
                                         </Description>
                                     </Info>
                                 </Bullet>
                             </SlideUp>
                             
+                        </Infos>
+                    </Item>
+                    <Item>
+                        <SlideUpFirm>
+                            <Image
+                                src="images/freelance.png"
+                                alt="quality"
+                            ></Image>
+                            <Connector />
+                        </SlideUpFirm>
+                        <Infos>
+                            <SlideUp>
+                                <Bullet>
+                                    <DotPrimary>
+                                        <DotCore />
+                                    </DotPrimary>
+                                    <Info>
+                                        <MobileImage
+                                            src="images/freelance.png"
+                                            alt="quality"
+                                        ></MobileImage>
+                                        <Time>Jan 2020 - Dec 2021</Time>
+                                        <Company>Freelance Developer</Company>
+                                        <Role>Web Developer</Role>
+                                        <Description>
+                                        • Contributed to student grievance, university, and examination portals, portfolios, and University Outreach websites<br></br><br></br>
+• Enhanced website performance by 30% through full-stack development of responsive interfaces, meeting set standards<br></br><br></br>
+• Performed comprehensive UAT sessions, achieving a 95% stakeholder satisfaction rate and ensuring smooth deployment<br></br><br></br>
+• Leveraged agile methodologies to adapt to changing project requirements and maintain flexibility throughout the SDL<br></br><br></br>
+                                        </Description>
+                                    </Info>
+                                </Bullet>
+                            </SlideUp>
                         </Infos>
                     </Item>
                     <Item>
@@ -132,8 +167,8 @@ const Experiences: React.FC = () => {
                                         <Company>Quality Theorem</Company>
                                         <Role>Web Developer Intern</Role>
                                         <Description>
-                                        • Achieved a 70% acceleration in exam systems by leading collaborative efforts to develop a cutting-edge, multi-functional examination website.<br></br><br></br>
-                                        • Enhanced user experience and system efficiency by designing responsive web interfaces in adherence to company standards, resulting in a 30% increase in speed and performance.<br></br>
+                                        • Achieved a 70% acceleration in exam systems by leading collaborative efforts to develop a cutting-edge, multi-functional examination website<br></br><br></br>
+                                        • Enhanced user experience and system efficiency by designing responsive web interfaces in adherence to company standards, resulting in a 30% increase in speed and performance<br></br>
                                         </Description>
                                     </Info>
                                 </Bullet>

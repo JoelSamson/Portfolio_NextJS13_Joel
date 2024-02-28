@@ -64,7 +64,7 @@ const Header = ({
             </Wrapper>
             <Banner>
                 I’m Open to work! I’m currently looking for a full-time software
-                engineering role for Spring 2024
+                engineering role for 2024
             </Banner>
         </>
     );

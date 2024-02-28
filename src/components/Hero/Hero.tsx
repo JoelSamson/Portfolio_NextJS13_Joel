@@ -60,8 +60,7 @@ const Hero = () => {
                 <SubText>-Tech Maven</SubText>
                 <h1>{`I am a`} <SPAN className="txt-rotate" data-rotate='[ "Software Developer", "Web Developer", "Web Designer", "UI/UX Designer" ]'><SPAN className="wrap">{text}</SPAN></SPAN></h1>
                 <Text>
-                    I’m a full-stack engineer specialising in building (and
-                    sometimes designing) highly accessible, human-centered
+                    I’m a full-stack engineer specialising in building highly accessible, human-centered
                     applications for the web. Recently graduated from <Link
                         href="https://www.gmu.edu"
                         target="_blank"
@@ -69,7 +68,7 @@ const Hero = () => {
                     >
                         <Highlight>George Mason University</Highlight>
                     </Link> with a Master’s
-                    degree in Computer Science. Looking for Entry level <Highlight>Software Developer Roles.</Highlight>
+                    degree in Computer Science. Looking for <Highlight>Software Developer Roles.</Highlight>
                     
                 </Text>
                 <CallToAction onClick={scrollToContact}>

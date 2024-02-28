@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Email: React.FC = () => {
     return (
         <Wrapper>
-            <Link href="mailto:pawan@bhandarkar.me">jsamson6@gmu.edu</Link>
+            <Link href="mailto:joelsadanandsamson@gmail.com">joelsadanandsamson@gmail.com</Link>
             <Line />
         </Wrapper>
     );
