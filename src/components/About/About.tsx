@@ -34,7 +34,8 @@ const About: React.FC<React.PropsWithChildren<IProps>> = ({
     </SlideUp>
     <SlideUp>
         <Description>
-            Hi there! 👋 My name is Joel, and I recently completed my <Highlight>Master&apos;s in Computer Science at George Mason University</Highlight>.My skills in programming stretch across many fields, and I&apos;m always eager to explore new opportunities.
+
+        Hello! I'm Joel, a passionate software developer with 2 years of experience spanning various domains. I recently completed my <Highlight>Master&apos;s in Computer Science at George Mason University</Highlight>, where I honed my skills in programming and collaborated on diverse projects. 
         </Description>
     </SlideUp>
     <SlideUp>
@@ -45,7 +46,7 @@ const About: React.FC<React.PropsWithChildren<IProps>> = ({
     </SlideUp>
     <SlideUp>
         <Description>
-            I am deeply passionate about software engineering and computer science, and I thrive in collaborative environments. My internship experiences, including at Istari Digital, where I contributed to website development using React, NodeJS, and other technologies, have further fueled my interest in software development. I am particularly interested in roles related to <Highlight>software development, cloud computing, and full-stack development.</Highlight>.
+        I am deeply enthusiastic about software engineering and computer science, thriving in collaborative environments where innovation and creativity flourish. My internship experiences, including at <Highlight>Istari Digital and Nexus 8 International</Highlight>, have equipped me with hands-on experience in web development, utilizing technologies such as React, NodeJS, and TypeScript. I am particularly interested in roles related to <Highlight>software development, cloud computing, and full-stack development</Highlight>, where I can leverage my expertise to drive impactful solutions.
         </Description>
     </SlideUp>
     <SlideUp>

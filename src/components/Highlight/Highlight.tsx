@@ -13,6 +13,7 @@ const Highlight: React.FC<React.PropsWithChildren<IProps>> = ({
 
 const Wrapper = styled.span`
     color: ${({ theme }) => theme.colors.primary};
+    font-weight:bold;
 `;
 
 export default Highlight;
