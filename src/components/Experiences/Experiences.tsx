@@ -16,6 +16,78 @@ const Experiences: React.FC = () => {
                     <SlideUp>
                         <Item>
                         <Image
+                                src="images/Salvation.png"
+                                alt="Salvation"
+                            ></Image>
+                            <DotPrimary>
+                                <DotCore />
+                            </DotPrimary>
+                            <Connector />
+                            <Info>
+                                <MobileImage
+                                    src="images/Salvation.png"
+                                    alt="Salvation"
+                                ></MobileImage>
+                                <Time>May 2024 - Present</Time>
+                                <Company>The Salvation Army</Company>
+                                <Role>Web Developer Intern</Role>
+                                <Description>  
+• Utilized HTML, CSS, and JavaScript to update and enhance content sections and layouts based on wireframes for salvationarmyusa.org<br></br><br></br>
+• Deployed national campaign assets and additional site content, improving the website's user experience and engagement<br></br><br></br>
+• Conducted thorough audits of site performance and user experience across internal sites, implementing findings to enhance overall usability<br></br><br></br>
+• Collaborated with the Web Manager to identify new strategies and areas of improvement for national web development efforts<br></br><br></br>
+• Assisted in the creation and optimization of digital assets using Photoshop and other photo editing software, ensuring adherence to organizational style guides<br></br><br></br>
+• Developed and published engaging content on the national website, boosting site traffic and user interaction<br></br><br></br>
+• Provided technical support and user assistance to salvationarmyusa.org and sub-site visitors, ensuring a seamless online experience<br></br><br></br>
+• Attended webmaster field calls and website vendor calls, contributing valuable insights and solutions<br></br><br></br>
+• Worked closely with the Web Manager and other team members to design and optimize both internal and external-facing websites<br></br><br></br>
+• Demonstrated strong interpersonal and communication skills in a collaborative, fast-paced environment<br></br><br></br>
+• Managed multiple projects and deadlines efficiently, delivering high-quality work under minimal supervision<br></br>
+                                </Description>
+                            </Info>
+                        </Item>
+                    </SlideUp>
+                    <TimeLine />
+                    
+                    <SlideUp>
+                    <Item>
+                        <SlideUpFirm>
+                            <Image
+                                src="images/nexus8.jpeg"
+                                alt="nexus8"
+                            ></Image>
+                            <Connector />
+                        </SlideUpFirm>
+                        <Infos>
+                            <SlideUp>
+                                <Bullet>
+                                    <DotPrimary>
+                                        <DotCore />
+                                    </DotPrimary>
+                                    <Info>
+                                        <MobileImage
+                                            src="images/nexus8.jpeg"
+                                            alt="nexus8"
+                                        ></MobileImage>
+                                        <Time>Jan 2023 - Present</Time>
+                                        <Company>Nexus 8 International</Company>
+                                        <Role>Software Engineering Intern</Role>
+                                        <Description>
+                                        • Remodeled website with latest design practices resulting in 25% increase in traffic and improved user experience<br></br><br></br>
+• Executed performance optimizations, slashing page load time by 40% using Caching, CDNS, image/code optimizations<br></br><br></br>
+• Conceptualized wireframe-driven UI/UX enhancements, adjusting website usability and navigation for better experience<br></br>
+                                        </Description>
+                                    </Info>
+                                </Bullet>
+                            </SlideUp>
+                            
+                        </Infos>
+                    </Item>
+                    </SlideUp>
+                    <TimeLine />
+                    <SlideUp>
+                        <Item>
+                        <Image
                                 src="images/istari.png"
                                 alt="Istari"
                             ></Image>
@@ -32,12 +104,12 @@ const Experiences: React.FC = () => {
                                 <Company>Istari Digital</Company>
                                 <Role>Software Engineer Intern</Role>
                                 <Description>
-                                    • Crafted reusable modular components, driving a 20% decrease in feature implementation time and boosting frontend<br></br><br></br>
-                                    • Architected RESTful APIs, boosting backend by 30%, reducing response time by 15%, enhancing scalability<br></br><br></br>
-                                    • Conducted comprehensive unit testing and achieved a 95% code coverage, effectively reducing post-release bugs by 30%<br></br><br></br>
-                                    • Led API documentation, cutting 25% of dev time and enhancing project clarity with clear, concise communication<br></br><br></br>
-                                    • Formulated TypeScript migration strategy, converting .jsx files to .ts, enhancing codebase maintainability and scalability<br></br><br></br>
-                                    • Integrated ChatGPT API into bots, automating repetitive daily tasks, optimizing workflow efficiency<br></br><br></br>
+                                • Implemented reusable modular components, lowering development time by 20% boosting project completion<br></br><br></br>
+• Architected RESTful APIs, boosting backend throughput by 30% using a load balancer, also enhanced scalability<br></br><br></br>
+• Conducted comprehensive unit testing and achieved a 95% code coverage, effectively reducing post-release bugs by 30%<br></br><br></br>
+• Led API documentation, cutting 25% of dev time and enhancing project clarity with clear, concise communication<br></br><br></br>
+• Formulated TypeScript migration strategy, converting .jsx files to .ts, enhancing codebase maintainability and scalability<br></br><br></br>
+• Integrated ChatGPT API into bots, automating repetitive daily tasks, optimizing workflow efficiency<br></br>
                                 </Description>
                             </Info>
                         </Item>
@@ -61,15 +133,14 @@ const Experiences: React.FC = () => {
                                             src="images/george-mason-university.jpg"
                                             alt="gmu"
                                         ></MobileImage>
-                                        <Time>Aug 2022 - Present</Time>
+                                        <Time>Aug 2022 - Dec 2023</Time>
                                         <Company>George Mason University</Company>
                                         <Role>Graduate Teaching Assistant</Role>
                                         <Description>
                                         
-                                        • Orchestrated and monitored student skill development through weekly check-ins, assessments, and keen observations, resulting in remarkable progress and achievement<br></br><br></br>
-                                • Managed over 100 assignments and contributed to bi-weekly course materials across two sections, significantly improving course efficiency and ensuring a seamless learning experience<br></br><br></br>
-                                • Delivered comprehensive instruction to students on the latest emerging technologies, simultaneously enhancing personal skills and aligning the course syllabus with dynamic industry trends for a more relevant and forward-thinking curriculum<br></br><br></br>
-                                • Guided 100+ students in fundamental CS concepts, enhancing their ability to write efficient, maintainable code by 15%<br></br><br></br>
+                                        • Guided 100+ students in fundamental CS concepts, enhancing their ability to write efficient, maintainable code by 15%<br></br><br></br>
+• Delivered comprehensive instruction to students on the latest emerging technologies, simultaneously enhancing technicalskills and aligning the course syllabus with industry trends for a more relevant and forward-thinking curriculum<br></br>
+
                                         </Description>
                                     </Info>
                                 </Bullet>
@@ -78,39 +149,7 @@ const Experiences: React.FC = () => {
                         </Infos>
                     </Item>
                     
-                    <Item>
-                        <SlideUpFirm>
-                            <Image
-                                src="images/nexus8.jpeg"
-                                alt="nexus8"
-                            ></Image>
-                            <Connector />
-                        </SlideUpFirm>
-                        <Infos>
-                            <SlideUp>
-                                <Bullet>
-                                    <DotPrimary>
-                                        <DotCore />
-                                    </DotPrimary>
-                                    <Info>
-                                        <MobileImage
-                                            src="images/nexus8.jpeg"
-                                            alt="nexus8"
-                                        ></MobileImage>
-                                        <Time>Dec 2023 - July 2023</Time>
-                                        <Company>Nexus 8 International</Company>
-                                        <Role>Software Engineering Intern</Role>
-                                        <Description>
-                                        • Orchestrated a website makeover by incorporating cutting-edge design elements and features, resulting in a remarkable 25% surge in website traffic<br></br><br></br>
-                                        • Spearheaded a comprehensive overhaul of an antiquated website, enhancing both speed and functionality and introducing innovative features for an improved user experience<br></br><br></br>
-                                        • Pioneered weekly project briefings, fostering alignment among teams on objectives and promoting a collaborative work environment, thereby enhancing overall project efficiency<br></br>
-                                        </Description>
-                                    </Info>
-                                </Bullet>
-                            </SlideUp>
-                            
-                        </Infos>
-                    </Item>
+                    
                     <Item>
                         <SlideUpFirm>
                             <Image
@@ -135,9 +174,9 @@ const Experiences: React.FC = () => {
                                         <Role>Web Developer</Role>
                                         <Description>
                                         • Contributed to student grievance, university, and examination portals, portfolios, and University Outreach websites<br></br><br></br>
-• Enhanced website performance by 30% through full-stack development of responsive interfaces, meeting set standards<br></br><br></br>
+• Boosted page load time by 25% through performance audits, eliminated render-blocking resources, and used lazy loading<br></br><br></br>
 • Performed comprehensive UAT sessions, achieving a 95% stakeholder satisfaction rate and ensuring smooth deployment<br></br><br></br>
-• Leveraged agile methodologies to adapt to changing project requirements and maintain flexibility throughout the SDL<br></br><br></br>
+• Leveraged agile methodologies to adapt to changing project requirements and maintain flexibility throughout the SDLC<br></br>
                                         </Description>
                                     </Info>
                                 </Bullet>

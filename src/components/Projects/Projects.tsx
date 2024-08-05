@@ -23,8 +23,8 @@ const PROJECTS = [
         description:
             "As part of my recent endeavors, I developed a dynamic news application using React, NextJS, and various other technologies. This project aimed to enhance the speed and responsiveness of data retrieval from news sources. By harnessing the capabilities of the News API and integrating Axios, I achieved a significant improvement of 50% in data retrieval speed compared to conventional methods. One of the highlights of this project was the use of Tailwind CSS for styling the application interface, which not only expedited the development process by 50% but also greatly enhanced the visual appeal of the application.",
         github: "https://github.com/JoelSamson/News-App",
-        website: "news-app-phi-lemon.vercel.app",
-        imgSrc: "/images/NewsAPP.png",
+        website: "https://news-app-phi-lemon.vercel.app/",
+        imgSrc: "/images/News.png",
         type: "Featured Project",
     },
     {
