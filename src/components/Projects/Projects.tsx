@@ -7,6 +7,35 @@ import SectionTitle from "../SectionTitle/SectionTitle";
 import SlideUp from "../SlideUp";
 
 const PROJECTS = [
+        {
+        name: "National Water Service",
+        techs: ["WordPress", "WordPress plugins", "Tailwind CSS and Bootstrap", "Google Analytics, Google Search Console, HubSpot" , "Elementor", "AI CHatbot", "HTML", "CSS", "JS"],
+        description:
+            "I am currently developing the National Water Service website, utilizing WordPress with plugins for SEO, security, and lead generation. The front-end is built with HTML, CSS, JavaScript, and styled using Tailwind CSS and Bootstrap. We’re integrating Google Analytics, Google Search Console, and HubSpot for tracking and insights, while optimizing SEO with keywords, schema markup, and Google Ads. Cloudflare enhances security and performance, and I create visual content in Photoshop for branding. Additionally, I implemented a chatbot to improve customer engagement and provide instant support. This ongoing project aims to deliver a seamless, secure, and scalable user experience.",
+        
+        website: "https://wwww.nationalwaterservice.com",
+        imgSrc: "/images/resumech.png",
+        type: "Featured Project",
+    },
+            {
+        name: "National Plumbing & Mechanical",
+        techs: ["WordPress", "WordPress plugins", "Tailwind CSS and Bootstrap", "Google Analytics, Google Search Console, HubSpot" , "Elementor", "AI CHatbot", "HTML", "CSS", "JS"],
+        description:
+            "I developed the National Plumbing and Mechanical website using Elementor, which allowed for a highly customizable and responsive design. Built on WordPress, the site integrates various plugins for SEO, security, and lead generation. The front-end design incorporates HTML, CSS, and JavaScript, with styling powered by Tailwind CSS and Bootstrap. Google Analytics, Google Search Console, and HubSpot were used for tracking performance and gaining insights into user behavior. SEO optimization was carried out through targeted keywords, schema markup, and Google Ads, while Cloudflare ensures enhanced security and website performance. Additionally, I created custom visual content in Photoshop to maintain cohesive branding across the website and social media platforms. The final product is a user-friendly, secure, and optimized site for National Plumbing and Mechanical.",
+        
+        website: "https://wwww.nationalplumbingandmechanical.com",
+        imgSrc: "/images/resumech.png",
+        type: "Featured Project",
+    },
+    {
+     name: "Salvation Army USA Main Website",
+        techs: ["Symphony CMS", "SEO plugins", "Tailwind CSS and Bootstrap", "Google Analytics, Google Search Console, HubSpot", "Custom Scripts", "HTML", "CSS", "JavaScript", "Photoshop", "Cloudflare", "Schema Markup", "Google Ads"],
+        description:
+            "I played a key role in managing and creating new sub-websites for the Salvation Army USA, overseeing a vast network of 17,000 websites. Using Symphony CMS, I helped ensure seamless integration, maintenance, and optimization of these sub-sites. This involved applying consistent branding, performance enhancements, and security measures across the network. Additionally, I optimized the websites with SEO strategies and ensured they were responsive and user-friendly. My work helped streamline web management and improve the user experience for such a large network of websites.",
+        
+        website: "https://wwww.salvationarmyusa.org",
+        imgSrc: "/images/resumech.png",
+        type: "Featured Project",},
     {
         name: "Cloud Resume Challange",
         techs: ["S3", "Cloudfront", "AWS Lambda", "AWS DynamoDB" , "AWS API Gateway", "HTML", "CSS", "JS"],
