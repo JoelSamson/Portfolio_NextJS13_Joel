@@ -16,7 +16,7 @@ const Hero = () => {
   const [text, setText] = useState<string>('');
   const [delta, setDelta] = useState<number>(300 - Math.random() * 100);
   const [index, setIndex] = useState<number>(1);
-  const toRotate: string[] = ["Web Developer", "Software Developer", "Marketing Specialist" , "Web Designer", "UI/UX Designer"];
+  const toRotate: string[] = [" Web Developer", " Software Developer", " Marketing Specialist" , " Web Designer", " UI/UX Designer"];
   const period: number = 400;
 
   useEffect(() => {
