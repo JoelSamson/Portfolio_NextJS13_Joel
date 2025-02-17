@@ -53,28 +53,31 @@ const Hero = () => {
   }
     return (
             <ContentWrapper>
-                <Text>
-                    <Highlight>Hi, my name is</Highlight>
-                </Text>
-                <Name>Joel Samson.</Name>
-                <SubText>-Tech Maven</SubText>
-                <h1>{`I am a`} <SPAN className="txt-rotate" data-rotate='[ "Software Developer", "Web Developer", "Web Designer", "UI/UX Designer" ]'><SPAN className="wrap">{text}</SPAN></SPAN></h1>
-                <Text>
-                    I’m a full-stack engineer specialising in building highly accessible, human-centered
-                    applications for the web. Recently graduated from <Link
-                        href="https://www.gmu.edu"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                    >
-                        <Highlight>George Mason University</Highlight>
-                    </Link> with a Master’s
-                    degree in Computer Science. Looking for <Highlight>Software Developer Roles.</Highlight>
-                    
-                </Text>
-                <CallToAction onClick={scrollToContact}>
-                    Get In Touch
-                </CallToAction>
-            </ContentWrapper>
+    <Text>
+        <Highlight>Hi, my name is</Highlight>
+    </Text>
+    <Name>Joel Samson.</Name>
+    <SubText>- Web Developer & Marketing Manager</SubText>
+    <h1>{`I am a`} 
+        <SPAN className="txt-rotate" data-rotate='[ "Software Engineer", "Web Developer", "Full-Stack Developer", "AI & Automation Enthusiast" ]'>
+            <SPAN className="wrap">{text}</SPAN>
+        </SPAN>
+    </h1>
+    <Text>
+        I’m a web developer and software engineer specializing in building scalable, high-performance web applications and integrating AI-driven solutions. I have developed a strong foundation in software engineering, cloud computing, and digital marketing through my work at <Highlight>National Water Service</Highlight> and <Highlight>The Salvation Army</Highlight>.  
+        <br /><br />
+        I earned my <Link
+            href="https://www.gmu.edu"
+            target="_blank"
+            rel="noreferrer noopener"
+        >
+            <Highlight>Master’s degree in Computer Science</Highlight>
+        </Link> from George Mason University and am always looking for innovative ways to optimize web platforms and enhance user experiences.
+    </Text>
+    <CallToAction onClick={scrollToContact}>
+        Get In Touch
+    </CallToAction>
+</ContentWrapper>
     
     );
 };
