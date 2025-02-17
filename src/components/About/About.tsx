@@ -46,7 +46,7 @@ const About: React.FC<React.PropsWithChildren<IProps>> = ({
     <SlideUp>
         <Description>
        Throughout my career, I've led website redesigns, optimized SEO strategies, and implemented AI-driven automation. My experience at National Water Service, The Salvation Army, and Nexus 8 International has equipped me with expertise in React, NodeJS, WordPress, Google Analytics, and HubSpot, enabling me to drive impactful digital solutions.
-
+<br></br>
 I thrive in dynamic, collaborative environments where I can leverage my technical expertise to enhance user experience, website performance, and business growth. Whether it's developing high-performance web applications, managing multi-platform marketing strategies, or integrating AI-powered chatbots, I focus on delivering innovative and effective solutions.
             </Description>
     </SlideUp>
