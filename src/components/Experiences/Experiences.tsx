@@ -48,7 +48,7 @@ data-driven marketing decisions and performance tracking to make a shift in sale
 contributed to increased brand visibility and a measurable boost in sales
 • Utilized business logic to integrate an AI-powered chatbot, training it to answer customer inquiries on all
 business-related topics, improving response time and customer engagement.
-• Managing <a href="nationalwaterservice.com">nationalwaterservice.com(redesigning)</a> & <a ref="nationalplumbingandmechanical.com">nationalplumbingandmechanical.com(Completed)</a>
+• Managing <a href="nationalwaterservice.com">nationalwaterservice.com(redesigning)</a> & <a href="nationalplumbingandmechanical.com">nationalplumbingandmechanical.com(Completed)</a>
                                 </Description>
                             </Info>
                         </Item>
