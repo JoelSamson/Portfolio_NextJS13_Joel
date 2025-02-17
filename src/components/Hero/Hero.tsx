@@ -97,16 +97,16 @@ const ContentWrapper = styled.div`
 
 const Name = styled.h2`
     white-space: nowrap;
-    font-size: calc(35 / 16 * 1rem);
+    font-size: calc(18 / 16 * 1rem);
     margin-bottom: -16px;
 
     ${QUERIES.tabletAndUp} {
-        font-size: calc(64 / 16 * 1rem);
+        font-size: calc(35 / 16 * 1rem);
         margin-bottom: -32px;
     }
 
     ${QUERIES.desktopAndUp} {
-        font-size: calc(80 / 16 * 1rem);
+        font-size: calc(64 / 16 * 1rem);
         margin-bottom: -32px;
     }
 `;
