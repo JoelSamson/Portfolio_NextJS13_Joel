@@ -16,7 +16,7 @@ const Hero = () => {
   const [text, setText] = useState<string>('');
   const [delta, setDelta] = useState<number>(300 - Math.random() * 100);
   const [index, setIndex] = useState<number>(1);
-  const toRotate: string[] = ["Software Developer", "Web Developer", "Web Designer", "UI/UX Designer"];
+  const toRotate: string[] = ["Web Developer", "Software Developer", "Marketing Specialist" , "Web Designer", "UI/UX Designer"];
   const period: number = 400;
 
   useEffect(() => {
@@ -97,31 +97,31 @@ const ContentWrapper = styled.div`
 
 const Name = styled.h2`
     white-space: nowrap;
-    font-size: calc(18 / 16 * 1rem);
+    font-size: calc(35 / 16 * 1rem);
     margin-bottom: -16px;
 
     ${QUERIES.tabletAndUp} {
-        font-size: calc(35 / 16 * 1rem);
+        font-size: calc(64 / 16 * 1rem);
         margin-bottom: -32px;
     }
 
     ${QUERIES.desktopAndUp} {
-        font-size: calc(64 / 16 * 1rem);
+        font-size: calc(80 / 16 * 1rem);
         margin-bottom: -32px;
     }
 `;
 
 const SubText = styled.h3`
     color: ${({ theme }) => theme.colors.primary};
-    font-size: calc(35 / 16 * 1rem);
+    font-size: calc(15 / 16 * 1rem);
     margin-bottom: 24px;
 
     ${QUERIES.tabletAndUp} {
-        font-size: calc(64 / 16 * 1rem);
+        font-size: calc(35 / 16 * 1rem);
     }
 
     ${QUERIES.desktopAndUp} {
-        font-size: calc(80 / 16 * 1rem);
+        font-size: calc(48 / 16 * 1rem);
     }
 `;
 
