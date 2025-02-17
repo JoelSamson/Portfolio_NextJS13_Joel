@@ -34,8 +34,7 @@ const About: React.FC<React.PropsWithChildren<IProps>> = ({
     </SlideUp>
     <SlideUp>
         <Description>
-
-        Hello! I'm Joel, a passionate software developer with 2 years of experience spanning various domains. I recently completed my <Highlight>Master&apos;s in Computer Science at George Mason University</Highlight>, where I honed my skills in programming and collaborated on diverse projects. 
+            Hello! I'm Joel Samson, a <Highlight>Web Developer and Marketing Manager at National Water Service </Highlight>with expertise in web technologies, analytics, and automation. I have developed a strong foundation in software engineering, cloud computing, and full-stack development through my Master&apos;s in Computer Science at George Mason University and hands-on industry experience.
         </Description>
     </SlideUp>
     <SlideUp>
@@ -46,8 +45,9 @@ const About: React.FC<React.PropsWithChildren<IProps>> = ({
     </SlideUp>
     <SlideUp>
         <Description>
-        I am deeply enthusiastic about software engineering and computer science, thriving in collaborative environments where innovation and creativity flourish. My internship experiences, including at <Highlight>Istari Digital and Nexus 8 International</Highlight>, have equipped me with hands-on experience in web development, utilizing technologies such as React, NodeJS, and TypeScript. I am particularly interested in roles related to <Highlight>software development, cloud computing, and full-stack development</Highlight>, where I can leverage my expertise to drive impactful solutions.
-        </Description>
+       Throughout my career, I've led website redesigns, optimized SEO strategies, and implemented AI-driven automation. My experience at National Water Service, The Salvation Army, and Nexus 8 International has equipped me with expertise in React, NodeJS, WordPress, Google Analytics, and HubSpot, enabling me to drive impactful digital solutions.
+
+I thrive in dynamic, collaborative environments where I can leverage my technical expertise to enhance user experience, website performance, and business growth. Whether it's developing high-performance web applications, managing multi-platform marketing strategies, or integrating AI-powered chatbots, I focus on delivering innovative and effective solutions.
     </SlideUp>
     <SlideUp>
         <Download onClick={downloadResume}>
