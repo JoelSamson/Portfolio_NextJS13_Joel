@@ -450,7 +450,7 @@ const Image = styled.img`
     ${QUERIES.tabletAndUp} {
         display: initial;
     }
-
+    background-color: white;
     height: 200px;
     width: 200px;
     border-radius: 8px;
