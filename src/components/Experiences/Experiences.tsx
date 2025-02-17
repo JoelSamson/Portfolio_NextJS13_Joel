@@ -16,6 +16,48 @@ const Experiences: React.FC = () => {
                     <SlideUp>
                         <Item>
                         <Image
+                                src="images/nationalwaterservice.png"
+                                alt="nationalwaterservice"
+                            ></Image>
+                            <DotPrimary>
+                                <DotCore />
+                            </DotPrimary>
+                            <Connector />
+                            <Info>
+                                <MobileImage
+                                    src="images/nationalwaterservice.png"
+                                    alt="nationalwaterservice"
+                                ></MobileImage>
+                                <Time>Sep 2024 - Present</Time>
+                                <Company>National Water Service</Company>
+                                <Role>Web Developer/Marketing Manager</Role>
+                                <Description>  
+
+• Managed and updated WordPress content and administered plugin integrations, optimizing site functionality and
+user experience
+• Implemented multi-platform marketing strategies across various social platforms and CRMs, including
+HubSpot email marketing, increasing customer engagement by 5%
+• Administered security improvements on WordPress using Cloudflare and other tools, reducing vulnerabilities
+and enhancing overall website protection by 50%
+• Optimized website SEO using Google Analytics, Search Console, and HubSpot, increasing organic search traffic by 3%
+• Developed comprehensive brand guidelines to ensure consistent branding across all platforms, utilizing Canva
+and Photoshop for visual elements
+• Created detailed company analytics reports using Google Analytics and HubSpot, providing insights for
+data-driven marketing decisions and performance tracking to make a shift in sales decisions
+• Managed Google Ads, Google Tag Manager, and social media platforms, creating daily content that
+contributed to increased brand visibility and a measurable boost in sales
+• Utilized business logic to integrate an AI-powered chatbot, training it to answer customer inquiries on all
+business-related topics, improving response time and customer engagement.
+• Managing <a href="nationalwaterservice.com">nationalwaterservice.com(redesigning)</a> & <a ref="nationalplumbingandmechanical.com">nationalplumbingandmechanical.com(Completed)</a>
+                                </Description>
+                            </Info>
+                        </Item>
+                    </SlideUp>
+                    <TimeLine />
+                    <TimeLine />
+                    <SlideUp>
+                        <Item>
+                        <Image
                                 src="images/Salvation.png"
                                 alt="Salvation"
                             ></Image>
@@ -28,7 +70,7 @@ const Experiences: React.FC = () => {
                                     src="images/Salvation.png"
                                     alt="Salvation"
                                 ></MobileImage>
-                                <Time>May 2024 - Present</Time>
+                                <Time>May 2024 - Sep 2024</Time>
                                 <Company>The Salvation Army</Company>
                                 <Role>Web Developer Intern</Role>
                                 <Description>  
@@ -69,7 +111,7 @@ const Experiences: React.FC = () => {
                                             src="images/nexus8.jpeg"
                                             alt="nexus8"
                                         ></MobileImage>
-                                        <Time>Jan 2023 - Present</Time>
+                                        <Time>Jan 2023 - May 2024</Time>
                                         <Company>Nexus 8 International</Company>
                                         <Role>Software Engineering Intern</Role>
                                         <Description>
